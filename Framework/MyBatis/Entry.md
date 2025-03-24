@@ -74,7 +74,7 @@ SqlSessionFactory：是生产 SqlSession 的工厂。
 
 [<font style="color:#003884;">UserMapperTest.java</font>](https://github.com/hzhiping/learn-code/blob/main/mybatis01/src/test/java/com/hzhiping/test/UserMapperTest.java)
 
-此时需要手动提交事务，如果要自动提交事务，则在获取 SqlSession 对象时，使用 `SqlSession sqlSession = sqlSessionFactory.openSession(true)`，传入一个 Boolean 类型的参数，值为 true，这样就可以自动提交。
+此时需要手动提交事务，如果要自动提交事务，则在获取 SqlSession 对象时，使用 SqlSession sqlSession = sqlSessionFactory.openSession(true)，传入一个 Boolean 类型的参数，值为 true，这样就可以自动提交。
 
 # 加入 log4j 日志功能
 
